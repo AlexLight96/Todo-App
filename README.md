@@ -68,14 +68,6 @@ Utiliza `useReducer` para un estado predecible con las siguientes acciones:
 - `DELETE_TODO` - Eliminar tarea existente
 - `TOGGLE_TODO` - Cambiar estado completado/pendiente
 
-### Tipado TypeScript
-
-Interfaces bien definidas para todos los componentes:
-- `Todo` - Estructura de una tarea
-- `TodoItemProps` - Props del componente TodoItem
-- `TodoListProps` - Props del componente TodoList
-- `TodoAddProps` - Props del componente TodoAdd
-
 ## Instalación
 
 1. Clona el repositorio
@@ -96,9 +88,3 @@ Interfaces bien definidas para todos los componentes:
 
 4. Abre http://localhost:5173 en tu navegador
 
-## Scripts
-
-- `pnpm dev` - Servidor de desarrollo
-- `pnpm build` - Build de producción
-- `pnpm lint` - Linter
-- `pnpm preview` - Preview de producción

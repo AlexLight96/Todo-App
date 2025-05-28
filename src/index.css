@@ -1,7 +1,4 @@
-/* Importar fuentes de Google */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-/* Variables CSS para paleta de colores suaves */
 :root {
   --primary-color: #667eea;
   --secondary-color: #764ba2;
@@ -39,7 +36,6 @@ body {
   padding: 2rem;
 }
 
-/* Contenedor principal */
 .todo-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -50,7 +46,6 @@ body {
   backdrop-filter: blur(10px);
 }
 
-/* Header */
 .todo-header {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: white;
@@ -91,7 +86,6 @@ body {
   opacity: 0.9;
 }
 
-/* Contenido principal */
 .todo-content {
   padding: 2rem;
   display: grid;
@@ -99,7 +93,6 @@ body {
   gap: 2rem;
 }
 
-/* Lista de todos */
 .todo-list-section {
   background: var(--light-bg);
   border-radius: var(--border-radius);
@@ -203,7 +196,6 @@ body {
   box-shadow: 0 4px 12px rgba(253, 121, 168, 0.4);
 }
 
-/* Sección de agregar todo */
 .todo-add-section {
   background: var(--card-bg);
   border-radius: var(--border-radius);
@@ -274,7 +266,6 @@ body {
   transform: none;
 }
 
-/* Estado vacío */
 .empty-state {
   text-align: center;
   padding: 3rem 1rem;
@@ -297,7 +288,6 @@ body {
   font-size: 1rem;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   #root {
     padding: 1rem;
@@ -322,7 +312,6 @@ body {
   }
 }
 
-/* Animaciones */
 @keyframes slideIn {
   from {
     opacity: 0;
@@ -338,7 +327,6 @@ body {
   animation: slideIn 0.3s ease-out;
 }
 
-/* Scrollbar personalizado */
 ::-webkit-scrollbar {
   width: 8px;
 }
